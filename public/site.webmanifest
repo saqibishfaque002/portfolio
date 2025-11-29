@@ -1,0 +1,27 @@
+{
+  "name": "Saqib Ishfaque - Full Stack Developer",
+  "short_name": "Saqib Ishfaque",
+  "description": "Professional portfolio of Saqib Ishfaque, Full Stack Developer specializing in PHP, Laravel, and enterprise applications",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["business", "productivity", "technology"],
+  "lang": "en-US",
+  "dir": "ltr"
+}
+
