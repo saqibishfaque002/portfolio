@@ -36,7 +36,7 @@ export function Projects() {
         "Order punching without internet",
         "Automatic data sync when online",
         "Local database caching",
-        "Real-time inventory management",
+        // "Real-time inventory management",
       ],
       tags: ["Laravel", "MySQL", "Offline-First", "POS", "Sync"],
       color: "from-blue-500 to-cyan-500",

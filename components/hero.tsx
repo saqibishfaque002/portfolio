@@ -105,7 +105,7 @@ export function Hero() {
             <div className="space-y-6">
               <div className="grid grid-cols-2 gap-6">
                 <div className="bg-card border border-border rounded-lg p-6 hover:shadow-lg transition-shadow">
-                  <div className="text-4xl font-bold text-primary mb-2">5+</div>
+                  <div className="text-4xl font-bold text-primary mb-2">4+</div>
                   <div className="text-sm text-muted-foreground">Years Experience</div>
                 </div>
                 <div className="bg-card border border-border rounded-lg p-6 hover:shadow-lg transition-shadow">
