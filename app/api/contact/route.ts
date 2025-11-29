@@ -5,8 +5,8 @@ import nodemailer from "nodemailer"
 const SMTP_HOST = process.env.SMTP_HOST || "smtp.gmail.com"
 const SMTP_PORT = Number.parseInt(process.env.SMTP_PORT || "587")
 const SMTP_SECURE = process.env.SMTP_SECURE === "true"
-const SMTP_USER = "saqib.symits@gmail.com"
-const SMTP_PASS = "fzin sgtl bram hekr"
+const SMTP_USER = process.env.SMTP_USER
+const SMTP_PASS = process.env.SMTP_PASS
 const RECIPIENT_EMAIL = process.env.RECIPIENT_EMAIL || "saqibishfaquekhi@gmail.com"
 
 export async function POST(request: Request) {
