@@ -21,7 +21,7 @@ export function Hero() {
 
   const handleDownloadResume = () => {
     const link = document.createElement("a")
-    link.href = "/resume-saqib-ishfaque.pdf"
+    link.href = "/SAQIB-ISHFAQUE.pdf"
     link.download = "Saqib_Ishfaque_Resume.pdf"
     document.body.appendChild(link)
     link.click()

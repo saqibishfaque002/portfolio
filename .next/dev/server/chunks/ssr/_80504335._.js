@@ -157,7 +157,7 @@ function Hero() {
     };
     const handleDownloadResume = ()=>{
         const link = document.createElement("a");
-        link.href = "/resume-saqib-ishfaque.pdf";
+        link.href = "/SAQIB-ISHFAQUE.pdf";
         link.download = "Saqib_Ishfaque_Resume.pdf";
         document.body.appendChild(link);
         link.click();
@@ -2648,7 +2648,7 @@ function Navigation() {
     const handleDownloadResume = ()=>{
         // Create a link element and trigger download
         const link = document.createElement("a");
-        link.href = "/resume-saqib-ishfaque.pdf"; // You'll need to add your actual resume PDF to the public folder
+        link.href = "/SAQIB-ISHFAQUE.pdf"; // You'll need to add your actual resume PDF to the public folder
         link.download = "Saqib_Ishfaque_Resume.pdf";
         document.body.appendChild(link);
         link.click();
